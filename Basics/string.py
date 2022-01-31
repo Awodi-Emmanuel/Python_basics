@@ -25,6 +25,6 @@ x = my_slicing.split('l')
 
 print(x)
 # PRINTING FORMATTING 
- X = "Item One: {x} Item Two: {y}".format(x ="dog",y="cat")
+c = "Item One: {x} Item Two: {y}".format(x ="dog",y="cat")
 
-print(x) 
+print(c) 
