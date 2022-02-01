@@ -30,3 +30,27 @@ first_col = [row[2] for row in matrix]
 
 print(first_col)
 
+list_item = ['man', 'woman', 'boy', 'girl']
+
+# FOR LOOP
+
+for i in range(len(list_item)):
+    print([i])
+    
+    
+    # WHILE LOOP 
+    
+list_items = ['apple', 'banana', 'cherry']
+    
+x = 0
+    
+while x< len(list_items):
+    print(list_items[x])    
+    
+    x = x + 1
+
+fruits = ["apple", "banan", "cherry", "kiwi", "mango"]
+
+new_list = [x for x in fruits if x != "apple"]
+
+print(new_list)  
