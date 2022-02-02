@@ -54,3 +54,9 @@ fruits = ["apple", "banan", "cherry", "kiwi", "mango"]
 new_list = [x for x in fruits if x != "apple"]
 
 print(new_list)  
+
+
+# RANGE METHOD
+
+h = list(range(0,21,2))
+print(h)
